@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Indexed DB App</title>
+	<link rel="stylesheet" type="text/css" href="CSS/app.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="JS/app.js" type="text/javascript"></script>
+</head>
+<body>
+<div id=head>
+<h1 id="vintage">Indexed DB APP</h1>
+</div>
+<div id="content">
+<div id="left">
+<div id="input">
+	<span id="span1">Add note:</span>
+	<button id="new-btn">New Contact</button>
+	<div id="create">
+		<label><span>Note subject:</span> <input id="subject" type="text"></input></label><span id="alertsub">(subject is required)</span><br>
+		<label><span>author name:</span> <input id="name" type="email"></input></label><span id="alertname">(author name is required)</span><br>
+		<label><span>message:</span> <textarea id="message" name="message" ></textarea></label><span id="alertmessage">(message is required)</span><br>
+		<button id="save-btn">Save</button>
+		<button id="cancel-btn">Cancel</button>
+	</div>
+</div>
+<div id="detailbox">
+
+</div>
+</div>
+<div id="notelist">
+	<h2>Note list</h2>
+	<div id="results-wrapper">
+		<div id="list-wrapper"></div>
+	</div>
+</div>
+</div>
+</body>
+</html>
